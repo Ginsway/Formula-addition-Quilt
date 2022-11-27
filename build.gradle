@@ -1,4 +1,4 @@
-plugins {
+uiltplugins {
 	id 'maven-publish'
 	alias libs.plugins.quilt.loom
 }

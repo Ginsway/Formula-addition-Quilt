@@ -1,4 +1,4 @@
-package com.example.example_mod.mixin;
+package com.ginsway.formula_addition_quilt.mixin;
 
 import com.example.example_mod.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class TitleScreenMixin {
 	@Inject(method = "init", at = @At("TAIL"))
 	public void exampleMod$onInit(CallbackInfo ci) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		ExampleMod.LOGGER.info("This line is printed by Formula addition mixin!");
 	}
 }

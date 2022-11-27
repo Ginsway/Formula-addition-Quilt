@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "com.ginsway",
+		"id": "formula_addition_quilt",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Formula Addition Quilt",
+			"description": "Add more recipes!",
 			"contributors": {
-				"Your name here": "Owner"
+				"Your name here": "Ginsway"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "http://xiaole.space/",
+				"issues": "https://github.com/Ginsway/Formula-addition-Fabric/issues",
+				"sources": "https://github.com/Ginsway/Formula-addition-Fabric/"
+
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/formula_addition_quilt/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.ginsway.formula_addition_quilt.FormulaAdditionQuilt"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "formula_addition_quilt.mixins.json"
 }
